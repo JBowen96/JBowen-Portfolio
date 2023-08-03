@@ -1,0 +1,305 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    position: relative;
+    background-color: rgb(224, 224, 222);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(66, 66, 56);
+}
+
+header div {
+    background-color: rgb(177, 177, 115);
+    margin: 10px;
+    border-radius: 8px;
+}
+
+header h1 a {
+    font-size: 30px;
+    padding: 0px 10px 0px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(66, 66, 56) ;
+}
+
+header h1:hover {
+    background-color: rgb(87, 87, 74);
+    border-radius: 8px;
+}
+
+header h1 a:hover { 
+    color: beige;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+    list-style: none;
+}
+
+header nav a {
+    position: relative;
+    text-decoration: none;
+    color: beige;
+    padding: 20px 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav a:hover {
+    color: rgb(58, 58, 50) ;
+    background-color: rgb(177, 177, 115);
+}
+
+/* this is the section for ths splash screen */
+
+.splash-map {
+    position: relative;
+    margin: 0px 0px 30px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+.splash-map div {
+    position: absolute;
+    display: inline-block;
+    padding: 5px;
+    font-size: 30px;
+    bottom: 20px;
+    right: 100px;
+    z-index: 10;
+    border-radius: 8px;
+    color:rgb(66, 66, 56);
+    background-color: rgb(177, 177, 115);
+    width: auto;
+}
+
+.splash-map img {
+    width: 100%;
+}
+
+main{
+    padding: 20px 40px;
+}
+
+.section-title {
+    font-size: 45px;
+    text-align: right;
+    width: 20%;
+    border-right: 5px solid;
+    padding: 10px;
+    height: 100%;
+}
+
+/* about */
+
+.sec {
+    display: flex;
+    align-items: center;
+}
+
+.about-stuff > img {
+    max-width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 15em;
+    border-radius: 50%;
+    border: solid 2px rgb(66, 66, 56);
+}
+
+.about-text {
+    font-size: 20px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.about-stuff {
+    display: flex;
+    margin: auto;
+}
+
+/* work */
+
+.applications {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap ;
+    margin: auto;
+}
+
+.app-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-basis: 50%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.app-container:hover {
+    background: linear-gradient(90deg, rgb(136, 136, 116), transparent) rgb(196, 196, 164);
+    border-radius: 8px;
+    }
+
+.app-container a {
+    border: 5px solid rgb(177, 177, 115) ;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 8px;
+    height: 225px;
+    width: 100%;
+}
+
+.app-container:first-child a {
+    height: 450px;
+}
+
+.app-container:first-child {
+    flex-basis: 100%;
+}
+
+
+.app-img {
+    /*object-fit: cover;*/
+    object-position: 50% 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.app-name {
+    position: absolute;
+    bottom: 34px;
+    padding: 5px;
+    left: 20px;
+    border-radius: 8px;
+    background-color: rgb(177, 177, 115);
+    box-shadow: 2px 2px 10px black;
+}
+
+.app-name h3 {
+    font-size: 20px;
+    color: rgb(66, 66, 56);
+}
+
+.app-name p {
+    color: rgb(66, 66, 56);
+}
+
+/* contact */
+
+.sec:last-child {
+    
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 20px;
+    width: 100%;
+    justify-content: space-between;
+    height: auto;
+}
+.footer-links {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex: 1;
+}
+
+.footer-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-links ul li {
+    list-style: none;
+    padding: 10px 30px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: rgb(66, 66, 56);
+    border-bottom: 2px solid rgb(66, 66, 56);
+    font-size: 20px;
+    padding: 5px;
+}
+.footer-links ul li a:hover {
+    background-color: rgb(66, 66, 56);
+    border-radius: 8px;
+    color: white;
+}
+
+@media screen and (min-width: 980px) {
+    .applications {
+        max-width: 700px;
+    }
+    .about-stuff {
+        max-width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .app-container {
+        flex-basis: 100%;
+    }
+    .app-container:first-child a {
+        height: 225px;
+    }
+    .sec {
+        flex-direction: column;
+    }
+    .section-title {
+        border-right: 0;
+        border-bottom: 2px solid;
+        padding: 5px;
+        font-size: 30px;
+    }
+    .about-stuff {
+        padding: 10px;
+    }
+    .splash-map div {
+        font-size: 15px;
+    }
+    .splash-map {
+        min-height: 20vh;
+    }
+    .about-stuff > img {
+        max-width: 150px ;
+        max-height: 150px;
+    }
+    header h1 a {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header h1 a {
+        font-size: 20px;
+        width: fit-content;
+    }
+
+}
