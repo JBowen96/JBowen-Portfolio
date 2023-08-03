@@ -19,6 +19,7 @@ N/A
 ## Usage
 
 This page can be used to access current and future examples of web development skills in front-end, back-end, and full-stack.
+Currently only the bottom right work container has a link to a page, as the others are just place holders.
 
 ## Credits
 Adobe Stock Standard License
