@@ -2,12 +2,13 @@
 
 ## Description
 
-This portfolio project serves as a test of HTML and CSS skills. I have worked to make teh page more responsive, size adaptable, and clear to a viewer.
+This portfolio project serves as a test of HTML and CSS skills. I have worked to make the page more responsive, size adaptable, and clear to a viewer.
 
 ## Link
-https://jbowen96.github.io/Accessibility-refactor-project/
+https://jbowen96.github.io/JBowen-Portfolio/
 
 ## View
+![image](https://github.com/JBowen96/JBowen-Portfolio/assets/139276635/06f4785e-bc62-4060-a855-baaacf17d811)
 
 
 
@@ -17,7 +18,7 @@ N/A
 
 ## Usage
 
-This page can be used to access current and future exampls of web development skills in front end, back end, and full-stack.
+This page can be used to access current and future examples of web development skills in front-end, back-end, and full-stack.
 
 ## Credits
 Adobe Stock Standard License
