@@ -8,7 +8,8 @@ This portfolio project serves as a test of HTML and CSS skills. I have worked to
 https://jbowen96.github.io/JBowen-Portfolio/
 
 ## View
-![image](https://github.com/JBowen96/JBowen-Portfolio/assets/139276635/06f4785e-bc62-4060-a855-baaacf17d811)
+![image](https://github.com/JBowen96/JBowen-Portfolio/assets/139276635/d2fee157-ea50-4574-b7f6-1806467d55a7)
+
 
 
 
